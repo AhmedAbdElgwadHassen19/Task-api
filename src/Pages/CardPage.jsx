@@ -34,7 +34,7 @@ export default function CardPage() {
           ))
         ) : (
           <p className="col-span-full text-center text-gray-500">
-            No users available.
+            No users available 
           </p>
         )}
       </div>
