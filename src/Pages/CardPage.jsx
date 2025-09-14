@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react.jsx";
+import { useEffect, useState } from "react";
 import { getUsers } from "../server/api.js";
 
 export default function CardPage() {
@@ -34,7 +34,7 @@ export default function CardPage() {
           ))
         ) : (
           <p className="col-span-full text-center text-gray-500">
-            No users available 
+            No users available .
           </p>
         )}
       </div>
