@@ -1,4 +1,4 @@
-import Slider from "../components/Slider"
+import Slider from "../components/Slider.jsx"
 export default function Layout({ children }) {
   return (
     <div className="flex"> 

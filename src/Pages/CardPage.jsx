@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { getUsers } from "../server/api";
+import { useEffect, useState } from "react.jsx";
+import { getUsers } from "../server/api.js";
 
 export default function CardPage() {
 

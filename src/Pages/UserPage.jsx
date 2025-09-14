@@ -1,7 +1,7 @@
 import  { useEffect, useState } from "react";
-import { getUsers } from "../server/api";
-import SearchBox from "../Components/SearchBox";
-import Table from "../Components/Table";
+import { getUsers } from "../server/api.js";
+import SearchBox from "../Components/SearchBox.jsx";
+import Table from "../Components/Table.jsx";
 
 export default function UserPage() {
     const [users, setUsers] = useState([]);
