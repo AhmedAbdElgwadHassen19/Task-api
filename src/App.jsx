@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Login from "./Pages/Login";
 import UserPage from "./Pages/UserPage";
-import Layout from "./Layout/layout";
+import Layout from "./Layout/Layout";
 import CardPage from "./Pages/CardPage";
 
 
